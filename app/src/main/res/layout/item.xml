@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.gkk.sideslipdelete.SideslipView
+        android:id="@+id/item_sv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <include layout="@layout/layout_left" />
+
+        <include layout="@layout/layout_right" />
+
+    </com.gkk.sideslipdelete.SideslipView>
+</LinearLayout>
